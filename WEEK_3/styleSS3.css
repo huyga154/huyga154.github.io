@@ -1,0 +1,35 @@
+body{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: rgb(145, 113, 113);
+    color: white;
+    text-align: center;
+}
+nav{
+    background-color: gray;
+    color: yellow;
+}
+main{
+    background-color: rgb(214, 86, 86);
+    font-size: 20px;
+}
+footer{
+    background-color: aqua;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    margin: 30 30 30 30;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: bisque;
+}
+p{
+    line-height: 200%;
+}
