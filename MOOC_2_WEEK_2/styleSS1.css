@@ -1,0 +1,92 @@
+/* This is a single-line comment */
+body {
+    background-color: lightblue;
+}
+
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(212, 196, 16);
+  font-variant: small-caps;  
+  text-align: center;
+  font-size: 50px;
+  background-color: rgb(113, 111, 111);
+  line-height: 200%;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+#abc {
+  color: red;
+}
+#bcd {
+  color:brown;
+  text-align: center;
+}
+.dark{
+  background-color: black;
+  color: azure;
+  opacity: 0.3;
+}
+.light	{
+  background: white;
+  color: black;
+}
+.block4 {
+  
+  height: 10px;
+  width: 100px;
+  background-color: beige;
+  display: inline-block;
+}
+.block5 {
+  background-color: beige;
+  display: block;
+}
+.flex_x{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.grid_x{
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.grid_1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.grid_2{
+  grid-column: 3;
+}
+.grid_3{
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.grid_4{
+  grid-column: 6;
+}
+
+img{
+  width: 100%;
+}
+
+#xxx{
+  display: flex;
+  justify-content: space-between;
+  background-color: beige;
+  border-radius: 100px 100px 100px 100px;
+  align-items: normal;
+}
+
+#bbb{
+  width: 30%;
+}

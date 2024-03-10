@@ -1,0 +1,57 @@
+/* font */
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    /* ... */
+    display: flex;
+    color: aquamarine;
+    /* margin: ? ? ? ?; thứ tự là trên phải dưới trái */
+    /* padding tương tự; */
+    padding: 0%;
+    /* thứ tự trừ trong ra ngoài là content -> padding -> border -> margin*/
+}
+/* background */
+h1{
+    background-color: antiquewhite;
+    display: block;
+}
+
+/* for class */
+.abc{
+    width: 100%;
+    line-height: 15px;
+    text-align: center;
+    opacity: 0.3; /* độ mờ : 1 là nguyên bản, 0 là biến mất */
+}
+
+/* for id */
+#xyz{
+
+}
+
+ul{
+    list-style-type: upper-alpha;
+}
+
+/* --- chỉnh dành cho link */
+/* link chưa xem */
+a:link{
+
+}
+/* đã bấm vào */
+a:visited{
+
+}
+/* lúc để chuột lên */
+a:hover{
+
+}
+/* lúc nhấn */
+a:active{
+
+}
+
+/* --- chỉnh dành cho link */
+
