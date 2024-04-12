@@ -1,0 +1,11 @@
+#com {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 10px; /* Gap between images */
+
+}
+
+.image-container img {
+    width: 30%; /* Ensure images fill the grid cells */
+    height: auto; /* Maintain aspect ratio */
+}
